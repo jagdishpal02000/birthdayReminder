@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  margin: 0px;
+  padding: 0px;
+  background:linear-gradient(pink,blue);
+  color: #000;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background:linear-gradient(blue, pink);
+  border: 3px rgb(189, 172, 172) solid;
+  border-radius: 10px;
+  text-align: center;
+  width: 450px;
+  height: auto;
+}
+
+h3 {
+  font-size: 24px;
+    color: #fff;
+}
+
+.btn {
+  padding: 7px 15px 7px 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: wheat;
+  background-color: rgb(143, 143, 155);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 3px blue solid;
+}
+
+.person{
+  display: block;
+width: 150px;
+margin:auto;
+
+}
+
+.person p{
+  margin-top:-20px;
+  background: #fff;
+  border-radius:10px;
+}
+
+.person h4{
+  display: inline-block;
+    background: #fff;
+    padding:6px;
+    border-radius:10px;
+}
+
+.avtar{
+  display: block;
+  margin-left: auto;
+  object-fit: cover;
+  position: relative;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  
 }
